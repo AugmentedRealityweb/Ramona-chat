@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: url('gif2.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;  /* Asigură-te că iframe-ul este deasupra fundalului */
+}
+
+iframe {
+    width: 90vw;
+    max-width: 300px;
+    height: 100vh;
+    max-height: 600px;
+    border: none;
+    border-radius: 30px;
+    overflow: auto;
+}
