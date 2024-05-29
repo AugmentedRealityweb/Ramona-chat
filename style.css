@@ -27,6 +27,8 @@ iframe {
     height: 100vh;
     max-height: 600px;
     border: none;
-    border-radius: 30px;
-    overflow: auto;
+    border-radius: 50%; /* Face iframe-ul rotund */
+    overflow: hidden;
+    background: transparent; /* Asigură fundalul transparent */
+    box-shadow: none;
 }
